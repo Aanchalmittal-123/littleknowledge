@@ -1,0 +1,92 @@
+<!DOCTYPE html>
+<html>
+
+	<head>
+		<meta charset="UTF-8">
+		<meta http-equiv="X-UA-Compatible" content="IE=edge">
+		<meta name="viewport" content="width=device-width, initial-scale=1.0">
+		<title>ABOUT US</title>
+		<link href="ss.css" rel="stylesheet">
+		<style>
+            .hh
+            {
+               background-image: url("image/bk.jpg");
+               background-size: cover;
+            }
+
+		</style>
+	</head>
+	<body>
+		<div class="mobile-message">
+			<h2>Please use application on larger screen</h2>
+		</div>
+		<style>
+			/* Mobile Message */
+			.mobile-message
+			{
+				display: none;
+			}
+			/* Media Query: Mobile Devices */
+			@media screen and (max-width: 1290px) {
+				#Container {
+					display: none;
+				}
+				.mobile-message {
+					position: absolute;
+					height: 110vh;
+					width: 100%;
+					background-color: rgb(0, 0, 0);
+					color: white;
+					display: flex;
+					justify-content: center;
+					align-items: center;
+					text-align: center;
+					z-index: 100;
+				}
+			}
+		</style>
+		<div id="Container">
+		<nav>
+			<ul class="topnav">
+				<li><img src="image/p1.jpg" alt="LOGO IMAGE" height="150" width="150" style="opacity:0.6"></li>
+				<li class="toppp" style="margin-left:1cm"><a href="">&#9776;</a></li>
+				<li>
+					<h3 style="color:#FC6610; margin-top:2cm;"><I><font size="6">BABE'S WITH LITTLE KNOWLEDGE</font></I></h3>
+				</li>
+				<li class="topnav_right"><a href="home.html"><h4>Home</h4></a></li>
+				<li class="topnav_right"><a href="start.html"><h4>START</h4></a></li>
+				<li class="topnav_right"><a href="contact.html"><h4>Contact Us</h4></a></li>
+		</nav>
+		<hr>
+		<marquee behavior="alternate" direction="right" scrollamount="15" loop=""><font size="5" style="color:#145A32 ">BEST IS IN FRONT OF YOU</font></marquee>
+		<br>
+	<div class="hh">
+                <div> <img src="image/p1.jpg" height="120px" width="290px" style="opacity:0.3;  padding-right:20% "></div>
+                <br>
+                <div style="padding-left:30%; padding-right:30% ">
+                    <iframe width="500" height="315" src="https://www.youtube.com/embed/videoseries?list=PLRqqAZ8KsJbsIh4NPTstjt3tK7VmJzF7M" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen>
+                    </iframe>
+                </div>
+				<br>
+				<div>
+					<h1 style="text-align: center;">DESCRIPTION</h1>
+					<br>
+					<p style="padding-right: 2cm;padding-left:2cm;">
+						<font size="5">
+						C++ is a middle-level language rendering it the advantage of programming low-level (drivers, kernels) and
+						even higher-level applications (games, GUI, desktop apps etc.).
+						The basic syntax and code structure of both C and C++ are the same. 
+						</font>
+					</p>
+					<br><br>
+					<h1 style="text-align: center;">ABOUT INSTRUCTOR::</h1>
+					<br>
+					<img src="image/shivanimam.jpeg"  height="320px" width="420px" style=" align-content: center; padding-left:33%; padding-right:40%; border-radius:20%">>
+				
+				    <p style="color: blanchedalmond; text-align: center;"><font size="6">Mrs. SHIVANI SHARMA</font></p>
+					<br>
+					</table>
+				</div>
+            </div>
+    </body>
+</html>

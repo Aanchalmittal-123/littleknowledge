@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html style="box-sizing: border-box;">
+<head>
+	<title>START LEARNING</title>
+	<link href="ss.css" rel="stylesheet">
+</head>
+<body style="margin-left:2cm; margin-right:2cm;">
+	<div class="mobile-message">
+		<h2>Please use application on larger screen</h2>
+	</div>
+	<style>
+		/* Mobile Message */
+		.mobile-message
+		{
+			display: none;
+		}
+		/* Media Query: Mobile Devices */
+		@media screen and (max-width: 1290px) {
+			#Container {
+				display: none;
+			}
+			.mobile-message {
+				position: absolute;
+				height: 110vh;
+				width: 100%;
+				background-color: rgb(0, 0, 0);
+				color: white;
+				display: flex;
+				justify-content: center;
+				align-items: center;
+				text-align: center;
+				z-index: 100;
+			}
+		}
+	</style>
+	<div id="Container">
+		<nav>
+			<ul class="topnav">
+				<li><img src="image/p1.jpg" alt="LOGO IMAGE" height="150" width="150" style="opacity:0.6"></li>
+				<li class="toppp" style="margin-left:1cm"><a href="">&#9776;</a></li>
+				<li>
+					<h3 style="color:#FC6610; margin-top:2cm;"><I><font size="6">BABE'S WITH LITTLE KNOWLEDGE</font></I></h3>
+				</li>
+				<li class="topnav_right"><a href="home.html"><h4>Home</h4></a></li>
+				<li class="topnav_right"><a href="about.html"><h4>About Us</h4></a></li>
+				<li class="topnav_right"><a href="contact.html"><h4>Contact Us</h4></a></li>
+		</nav>
+		<hr>
+		<marquee behavior="alternate" direction="right" scrollamount="15" loop=""><font size="5" style="color:#145A32 ">BEST IS IN FRONT OF YOU</font></marquee>
+		<div>
+			<div style="float: right;"><img src="image/main.jpg" height="400px" width="540px" style="opacity: 0.4;"> </div>
+			<div style="float: left; width:51.3%">
+				<p>
+					<font size="3">
+						Amritsar College of Engineering & Technology possesses the world-class environment with
+						highly qualified and experienced faculty, fully - equipped labs, provided the quality
+						education, good infrastructure and excellent placements in top multinational brands.
+						ACET is among the top engineering colleges in north India and is one of the best engineering
+						colleges in Punjab, India, that imparts the best practices in practical as well as academic
+						knowledge to its students that helps them to be globally viable and open to the industry-driven
+						opportunities and challenges.</font>
+						<br><br>
+						<table>
+							<tr>
+								<td><img src="image/main1.jpg" width="100%" height="10%"></td>
+								<td><img src="image/main2.jpg" width="100%" height="10%" style="padding-left: 1cm;"></td>
+								<td><img src="image/main3.jpg" width="80%" height="10%" style="padding-left: 2cm;"></td>
+							</tr>
+						</table>					
+			    </p>
+			</div>
+		</div>
+	</div>
+	<p style="visibility:hidden">
+		<audio controls autoplay loop>
+			<source src="audio/music.mp3">
+		</audio>
+	</p>
+</body>
+</html>

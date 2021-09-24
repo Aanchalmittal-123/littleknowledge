@@ -1,0 +1,37 @@
+body{
+    background-image:url("image/agc.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    position:fixed;
+   }
+   #first
+   {
+       margin-left:8cm;
+       margin-right:7cm;
+       color: #000;
+   }
+   #second
+   {
+        background-color:antiquewhite;
+        image-resolution: 20% ;
+   }
+   p
+   {
+       color:white;
+       font-size:75px;
+       margin-left:3cm;
+       margin-right:3cm;
+   }
+   
+   a:hover
+   {
+       color:red;
+   }
+   a:visited
+   {
+       color:purple;
+   }
+   a:link
+   {
+       color:green;
+   }

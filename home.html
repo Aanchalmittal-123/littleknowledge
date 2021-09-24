@@ -1,0 +1,83 @@
+<!DOCTYPE html>
+<html>
+
+	<head>
+		<meta charset="UTF-8">
+		<meta http-equiv="X-UA-Compatible" content="IE=edge">
+		<meta name="viewport" content="width=device-width, initial-scale=1.0">
+		<title>ABOUT US</title>
+		<link href="ss.css" rel="stylesheet">
+		<style>
+			.hh
+            {
+               background-image: url("image/let\'s\ learn.jpg");
+               background-size: cover;
+            }
+		</style>
+	</head>
+	<body>
+		<div class="mobile-message">
+			<h2>Please use application on larger screen</h2>
+		</div>
+		<style>
+			/* Mobile Message */
+			.mobile-message
+			{
+				display: none;
+			}
+			/* Media Query: Mobile Devices */
+			@media screen and (max-width: 1290px) {
+				#Container {
+					display: none;
+				}
+				.mobile-message {
+					position: absolute;
+					height: 110vh;
+					width: 100%;
+					background-color: rgb(0, 0, 0);
+					color: white;
+					display: flex;
+					justify-content: center;
+					align-items: center;
+					text-align: center;
+					z-index: 100;
+				}
+			}
+		</style>
+		<div id="Container">
+		<nav>
+			<ul class="topnav">
+				<li><img src="image/p1.jpg" alt="LOGO IMAGE" height="150" width="150" style="opacity:0.6"></li>
+				<li class="toppp" style="margin-left:1cm"><a href="">&#9776;</a></li>
+				<li>
+					<h3 style="color:#FC6610; margin-top:2cm;"><I><font size="6">BABE'S WITH LITTLE KNOWLEDGE</font></I></h3>
+				</li>
+				<li class="topnav_right"><a href="about.html"><h4>ABOUT US</h4></a></li>
+				<li class="topnav_right"><a href="start.html"><h4>START</h4></a></li>
+				<li class="topnav_right"><a href="contact.html"><h4>Contact Us</h4></a></li>
+		</nav>
+		<hr>
+		<marquee behavior="alternate" direction="right" scrollamount="15" loop=""><font size="5" style="color:#145A32 ">BEST IS IN FRONT OF YOU</font></marquee>
+		<br>
+		</style>
+	</head>
+
+<div class="hh">
+                <div> <img src="image/p1.jpg" height="40%" width="19%" style="opacity:0.3; align-content: center;"></div>
+                <div  style="text-align: center;"><font size="7"><b>OUR BRANCES</b></font></div>
+                <br>
+                <table>
+                    <tr>
+                        <td><a href="btech.html"><img src="image/btechcse.jpg" alt="hello" height="190dp" width="290dp" style="padding-left: 2cm;"></a></td>
+                        <td><img src="image/civil.jpg" alt="hello" height="190dp" width="290dp" style="padding-left: 2cm;"></td>
+                        <td><img src="image/electrical.jpg" alt="hello" height="190dp" width="290dp" style="padding-left: 2cm;"></td>
+                    </tr>
+                    <tr>
+                        <td><img src="image/ee.jpg" alt="hello" height="190dp" width="290dp" style="padding-left: 2cm; padding-top: 1cm;"></td>
+                        <td><img src="image/mech.jpg" alt="hello" height="190dp" width="290dp" style="padding-left: 2cm; padding-top: 1cm;"></td>
+                        <td><img src="image/as.png" alt="hello" height="190dp" width="290dp" style="padding-left: 2cm; padding-top: 1cm;"></td>
+                    </tr>
+                </table>
+            </div>
+        </body>
+    </html>
